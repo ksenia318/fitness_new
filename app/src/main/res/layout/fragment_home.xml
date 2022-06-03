@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Добрый день, Ксения!"
+        android:textColor="@color/blue"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView181"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView181"
+        android:layout_width="74dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ellipse_14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView171"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Ежедневная тренировка"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView181" />
+
+    <ImageView
+        android:id="@+id/imageView191"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/group_113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView171" />
+
+    <ImageView
+        android:id="@+id/imageView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:src="@drawable/rectangle_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView191" />
+
+    <TextView
+        android:id="@+id/textView181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu"
+        android:text="Стретчинг"
+        android:textColor="@color/gray"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView201"
+        app:layout_constraintEnd_toEndOf="@+id/imageView201"
+        app:layout_constraintStart_toStartOf="@+id/imageView201"
+        app:layout_constraintTop_toTopOf="@+id/imageView201" />
+
+    <TextView
+        android:id="@+id/textView191"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Утренняя растяжка \n для бодрого дня!"
+        android:textColor="@color/gray"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView191"
+        app:layout_constraintTop_toBottomOf="@+id/imageView201" />
+
+    <TextView
+        android:id="@+id/textView201"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Над чем поработать"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView191" />
+
+    <ImageView
+        android:id="@+id/imageView221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/r_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView201" />
+
+    <ImageView
+        android:id="@+id/imageView231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/r_3"
+        app:layout_constraintStart_toEndOf="@+id/imageView221"
+        app:layout_constraintTop_toBottomOf="@+id/textView201" />
+
+    <ImageView
+        android:id="@+id/imageView241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/r_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView221" />
+
+    <ImageView
+        android:id="@+id/imageView251"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/r_4"
+        app:layout_constraintStart_toEndOf="@+id/imageView241"
+        app:layout_constraintTop_toBottomOf="@+id/imageView231" />
+
+    <TextView
+        android:id="@+id/textView211"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="61dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Спина"
+        android:textColor="@color/gray"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView221"
+        app:layout_constraintTop_toTopOf="@+id/imageView221" />
+
+    <TextView
+        android:id="@+id/textView231"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Пресс"
+        android:textColor="@color/gray"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView231"
+        app:layout_constraintTop_toTopOf="@+id/imageView231" />
+
+    <TextView
+        android:id="@+id/textView241"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Руки"
+        android:textColor="@color/gray"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView251"
+        app:layout_constraintTop_toTopOf="@+id/imageView251" />
+
+    <TextView
+        android:id="@+id/textView221"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Ноги"
+        android:textColor="@color/gray"
+        android:textSize="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView241"
+        app:layout_constraintTop_toTopOf="@+id/imageView241" />
+
+    <TextView
+        android:id="@+id/textView251"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/ubuntu"
+        android:text="Прогресс похудения"
+        android:textColor="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView241" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/pink"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView251">
+
+        <TextView
+            android:id="@+id/textView271"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:text="Начальный"
+            android:textColor="@color/gray"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/textView261"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:text="65.0 кг"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="27dp"/>
+        <TextView
+            android:id="@+id/textView272"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:text="Текущий"
+            android:textColor="@color/gray"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="150dp"/>
+
+        <TextView
+            android:id="@+id/textView262"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:text="62.5 кг"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="155dp"/>
+        <TextView
+            android:id="@+id/textView273"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:text="Целевой"
+            android:textColor="@color/gray"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="275dp"/>
+
+        <TextView
+            android:id="@+id/textView263"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu"
+            android:text="59.0 кг"
+            android:textColor="@color/gray"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginLeft="279dp"/>
+
+        <ImageView
+            android:id="@+id/imageView214"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/group_124" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_add"
+            android:layout_width="161dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginLeft="86dp"
+            android:onClick="onClick"
+            app:cardBackgroundColor="@color/pink_2"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="2dp">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:text="Добавить"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

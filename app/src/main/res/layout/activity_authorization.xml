@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authorization">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="396dp"
+        android:layout_height="764dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/splash_pic" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blackout"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55">
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/splash_card"
+        android:layout_width="323dp"
+        android:layout_height="328dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="220dp"
+        android:background="@color/white"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/button_back_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="34dp"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/arrow"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="34dp"
+            android:fontFamily="@font/ubuntu"
+            android:text="Авторизация"
+            android:textColor="@color/blue"
+            android:textSize="28dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="89dp"
+            app:cardBackgroundColor="@color/stroke"
+            app:cardCornerRadius="15dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="23dp"
+                        android:layout_height="21dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="14dp"
+                        app:srcCompat="@drawable/user_icon"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:layout_width="235dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="12dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ubuntu_light"
+                        android:inputType="textPersonName"
+                        android:text="Имя пользователя"
+                        android:textColor="@color/gray"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="297dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="160dp"
+            app:cardBackgroundColor="@color/stroke"
+            app:cardCornerRadius="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="23dp"
+                        android:layout_height="21dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="14dp"
+                        app:srcCompat="@drawable/key_icon"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="235dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="12dp"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/ubuntu_light"
+                        android:inputType="textPersonName"
+                        android:text="Пароль"
+                        android:textColor="@color/gray"
+                        android:textSize="18dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_further_1"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="241dp"
+            android:onClick="onClick_1"
+            app:cardBackgroundColor="@color/pink"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="296dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center"
+                android:text="Войти"
+                android:textColor="@color/gray"
+                android:textSize="28dp" />
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
